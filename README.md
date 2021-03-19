@@ -6,7 +6,19 @@
 
 
 ## Configuration
-const long changeStateDelay = 3;    // Delay before change state (seconds)
-const long longPresenceDelay = 120;  // Delay after is long presence (seconds)
-const long shortOutDuration = 20;   // Out short duration (seconds)
-const long longOutDuration = 180;    // Out long duration (seconds)
+  
+### Delay before change state (seconds)
+
+changeStateDelay = 3; 
+
+### Delay after is long presence (seconds)
+
+longPresenceDelay = 120;  
+
+### Out short duration (seconds)
+
+shortOutDuration = 20;   
+
+### Out long duration (seconds)
+
+longOutDuration = 180;    
