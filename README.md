@@ -22,3 +22,18 @@ shortOutDuration = 20;
 ### Out long duration (seconds)
 
 longOutDuration = 180;    
+
+
+## Bill of materials
+1 x Arduino Nano
+
+1 x Sensor HCSR04
+
+3 x LED G4, 12/24v DC
+
+3 x Relay KY-019 5V DC
+
+1 x Potentiometer 10k Ohms
+
+1 X Power 12v DC
+
