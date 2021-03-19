@@ -8,21 +8,24 @@ const int redPin = 2;         // Red Light DigitalPin
 const int greenPin = 3;       // Green Light DigitalPin
 const int yellowPin = 4;      // Yellow Light DigitalPin
 
-const int triggerPin = 10;    // Trigger DigitalPin
-const int echoPin = 9;        // Echo DigitalPin
+const int triggerPin = 10;    // HCSR04 - Trigger DigitalPin
+const int echoPin = 9;        // HCSR04 - Echo DigitalPin
 
-const int distancePin = A0;      // Distance setting AnalogPin
+const int distancePin = A0;      // Potentiometer - AnalogPin
+
 
 // Measurments
 long detectDistance = 0;
 long presenceDuration = 0;
+long presenceDistance = 0;
+
 
 // Configuration
 const long changeStateDelay = 3;    // Delay before change state (seconds)
 const long longPresenceDelay = 120;  // Delay after is long presence (seconds)
 const long shortOutDuration = 20;   // Out short duration (seconds)
 const long longOutDuration = 180;    // Out long duration (seconds)
-long presenceDistance = 0;
+
 
 void setup() {
   Serial.begin (9600);
