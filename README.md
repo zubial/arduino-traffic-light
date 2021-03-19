@@ -1,1 +1,1 @@
-# arduino-traffic-light
+# Arduino - Traffic lights for your restroom
