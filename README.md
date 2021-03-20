@@ -4,7 +4,7 @@
 
 ## Configuration
   
-### Delay before change state (seconds)
+### Waiting delay before change state (seconds)
 
 changeStateDelay = 3; 
 
@@ -12,11 +12,11 @@ changeStateDelay = 3;
 
 longPresenceDelay = 120;  
 
-### Out short duration (seconds)
+### Yellow light - Short duration (seconds)
 
 shortOutDuration = 20;   
 
-### Out long duration (seconds)
+### Yellow light - Long duration (seconds)
 
 longOutDuration = 180;    
 
@@ -24,11 +24,11 @@ longOutDuration = 180;
 ## Bill of materials
 1 x Arduino Nano
 
-1 x Sensor HCSR04
+1 x Sensor HC-SR04
 
 3 x LED G4, 12/24v DC
 
-3 x Relay KY-019 5V DC
+3 x Relay KY-019 5V DC / 220V AC-DC
 
 1 x Potentiometer 10k Ohms
 
